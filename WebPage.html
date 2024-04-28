@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Structure</title>
+    <style>
+        header,footer{
+            border: 2px solid darkcyan;
+            box-shadow: 0px 3px 10px darkcyan;
+            color :white;
+            text-align: center;
+            background-color: darkcyan;
+            font-size: 1.5em;
+        }
+        aside {
+            position: fixed;
+            right: 50px;
+            left: 150px;
+            border: 2px solid darkcyan;
+            height: 50px;
+            width: 100px;
+        }
+        article {
+            position: fixed;
+            right: 50px;
+            top: 200px;
+            border: 2px solid darkcyan;
+            height: 50px;
+            width: 100px;
+        }
+        section {
+            height: 400px;
+            border: 2px solid darkcyan;
+            box-shadow: 0px 3px 10px darkcyan;
+            margin: 20px;
+        }
+        dialog{
+            border: 2px solid darkcyan;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <menu>
+                <span>Home</span>
+                <span>|</span>
+                <span>About</span>
+                <span>|</span>
+                <span>Gallery</span>
+                <span>|</span>
+                <span>Contact</span>
+            </menu>
+        </nav>
+    </header>
+    <section>
+        <dialog open>
+            <input type="text">
+            <button>Search</button>
+        </dialog>
+        <figure>
+            <img src="../images/image_1.jpg" height="200" width="200" alt="image">
+            <figcaption>Food</figcaption>
+        </figure>
+        <aside> Ads... here....</aside>
+        <article> 50 % OFF</article>
+    </section>
+    <footer>
+        <div>
+            Electronics | Shoes | Mobiles | Accesories
+        </div>
+        <div>
+           Copyright &copy; 2024
+        </div>
+    </footer>
+</body>
+</html>
